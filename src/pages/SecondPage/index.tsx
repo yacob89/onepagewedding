@@ -48,7 +48,7 @@ const YacobTextStyled = styled.p`
   text-shadow: 2px 2px 2px #000;
   font-size: 2em;
   line-height: 0.8em;
-  color: #87cefa;
+  color: #ffffff;
   margin: 0;
   text-align: left;
   font-weight: 900;
@@ -62,7 +62,7 @@ const IreneTextStyled = styled.p`
   text-shadow: 2px 2px 2px #000;
   font-size: 2em;
   line-height: 0.8em;
-  color: #f08080;
+  color: #ffffff;
   margin: 0;
   text-align: right;
   font-weight: 900;

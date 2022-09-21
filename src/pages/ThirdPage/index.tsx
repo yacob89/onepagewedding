@@ -67,7 +67,7 @@ const TextContentStyled = styled.p`
   text-shadow: 4px 4px 4px #aaa;
   font-size: 2em;
   line-height: 0.8em;
-  color: #4682b4;
+  color: #000000;
   margin: 0;
   text-align: left;
   font-weight: 900;
@@ -112,7 +112,7 @@ const ThirdPage: FC<TypeProps> = ({ title }) => {
         <DivTitleStyled>
           <TitleStyled>Save The Date</TitleStyled>
           <TextContentStyled>October 1st, 2022</TextContentStyled>
-          <TextContentStyled>16:30 - 20:00</TextContentStyled>
+          <TextContentStyled>16:30</TextContentStyled>
           <TextContentStyled>Church In Bandung</TextContentStyled>
           <TextContentStyled>
             JL. Ketapang No.11, Malabar, Kec. Lengkong
