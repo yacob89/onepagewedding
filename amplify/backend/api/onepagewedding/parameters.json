@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "onepagewedding",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authonepageweddingce17abeb",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
