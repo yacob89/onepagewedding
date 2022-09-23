@@ -77,14 +77,6 @@ const FifthPage: FC<TypeProps> = ({ title }) => {
           close={() => setIndex(-1)}
         />
       </ContentStyled>
-      <FooterStyled style={{ textAlign: "center" }}>
-        <Image
-          height={"50px"}
-          width={"50px"}
-          preview={false}
-          src="http://twostates.in/images/scroll.png"
-        />
-      </FooterStyled>
     </LayoutStyled>
   );
 };

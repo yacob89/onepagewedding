@@ -61,18 +61,4 @@ export const images: CustomImage[] = [
     width: 320,
     height: 213,
   },
-  {
-    src: "https://yacob-assets.s3.us-east-2.amazonaws.com/320Cetak_4R_Foto%2520utama_4R_DSCF0049_utama.png",
-    original:
-      "https://yacob-assets.s3.us-east-2.amazonaws.com/Cetak_4R_Foto%2520utama_4R_DSCF0049_utama.jpg",
-    width: 320,
-    height: 213,
-  },
-  {
-    src: "https://yacob-assets.s3.us-east-2.amazonaws.com/320Cetak_4R_Foto%2520utama_4R_DSCF0106_utama.png",
-    original:
-      "https://yacob-assets.s3.us-east-2.amazonaws.com/Cetak_4R_Foto%2520utama_4R_DSCF0106_utama.jpg",
-    width: 320,
-    height: 213,
-  },
 ];

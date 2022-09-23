@@ -7,6 +7,7 @@ import SecondPage from "src/pages/SecondPage";
 import ThirdPage from "src/pages/ThirdPage";
 import FourthPage from "src/pages/FourthPage";
 import FifthPage from "src/pages/FifthPage";
+import SixthPage from "src/pages/SixthPage";
 
 const LayoutStyled = styled(Layout)`
   height: 100%;
@@ -34,6 +35,7 @@ const ParentPage: FC<TypeProps> = ({ title }) => {
       <ThirdPage />
       <FourthPage />
       <FifthPage />
+      <SixthPage />
     </ReactPageScroller>
   );
 };

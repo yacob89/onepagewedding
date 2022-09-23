@@ -48,7 +48,16 @@
               "userPoolId": "authonepageweddingce17abeb"
             }
           },
-          "additionalAuthenticationProviders": []
+          "additionalAuthenticationProviders": [
+            {
+              "authenticationType": "API_KEY",
+              "apiKeyConfig": {
+                "apiKeyExpirationDays": 365,
+                "apiKeyExpirationDate": "2023-09-23T22:01:20.816Z",
+                "description": "graphql api key"
+              }
+            }
+          ]
         }
       }
     }

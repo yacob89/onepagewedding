@@ -16,9 +16,9 @@ const getRowId = (row: TypeNote): string => row.id || "";
 
 const columns = [
   {
-    title: "Name",
-    dataIndex: "name",
-    key: "name",
+    title: "Sender",
+    dataIndex: "sender",
+    key: "sender",
     render: (text: string) => <Text>{text}</Text>,
   },
   {
@@ -30,7 +30,14 @@ const columns = [
 ];
 
 const TableContent: FC<TypeProps> = ({ title, datasource }) => {
-  return <Table columns={columns} dataSource={datasource} rowKey={getRowId} />;
+  return (
+    <Table
+      columns={columns}
+      dataSource={datasource}
+      rowKey={getRowId}
+      pagination={{ position: ["topLeft", "bottomRight"] }}
+    />
+  );
 };
 
 export default TableContent;

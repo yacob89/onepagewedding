@@ -5,13 +5,7 @@ import { useState } from "react";
 import { Gallery } from "react-grid-gallery";
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import { images, CustomImage } from "./images";
-import Image from "antd/lib/image";
-import Row from "antd/lib/row";
-import Col from "antd/lib/col";
-
-const { Content } = Layout;
 
 const slides = images.map(({ original, width, height }) => ({
   src: original,
@@ -42,18 +36,6 @@ const ContentStyled = styled.div`
   }
 `;
 
-const RowStyled = styled(Row)`
-  margin-top: 20px;
-`;
-
-const FooterStyled = styled.div`
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 20px;
-`;
-
 interface TypeProps {
   title?: string;
 }
@@ -77,14 +59,6 @@ const FourthPage: FC<TypeProps> = ({ title }) => {
           close={() => setIndex(-1)}
         />
       </ContentStyled>
-      <FooterStyled style={{ textAlign: "center" }}>
-        <Image
-          height={"50px"}
-          width={"50px"}
-          preview={false}
-          src="http://twostates.in/images/scroll.png"
-        />
-      </FooterStyled>
     </LayoutStyled>
   );
 };
